@@ -2038,6 +2038,8 @@
                     $(this).attr('id', '');
                 });
 
+            } else if (_.currentSlide > 0) {
+                _.currentSlide = 0;
             }
 
         }
